@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #396EB0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  width: 100%;
+  
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+  
+}
+.con{
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  
+}
+.con h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: aliceblue;
+}
+.con h1 span{
+  color: #FC997C;
+}
+.inp{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+
+}
+.inp input{
+  height: 50px;
+  width: 50%;
+  padding: 20px;
+  background-color: aliceblue;
+  border: none;
+ 
+  -webkit-appearance: none
+}
+.inp input:hover{
+   background-color: rgb(212, 221, 230);
 }
 
-.App-link {
-  color: #61dafb;
-}
+.inp input:focus {outline:none!important;}
+.oicon{
+  height: 50px;
+  padding: 50px;
+  padding: 10px;
+  background-color: rgb(212, 221, 230);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  cursor: pointer;
+}
+.oicon:hover{
+  background-color: aliceblue;
+}
+.para{
+  height: 50px;
+  width: 50%;
+  padding: 20px;
+  background-color: aliceblue;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button{
+  padding: 10px;
+  border: none;
+  background-color: #FC997C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.btn button:hover{
+  background-color: aliceblue;
+}
+@media (max-width: 768px){
+  .inp input{
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+  .para{
+    width: 80%;
   }
 }
