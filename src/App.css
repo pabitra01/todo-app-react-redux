@@ -46,6 +46,7 @@ body{
   padding: 20px;
   background-color: aliceblue;
   border: none;
+  font-size: 16px;
  
   -webkit-appearance: none
 }

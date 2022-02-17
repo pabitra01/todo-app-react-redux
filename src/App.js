@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="main">
       <div className="con">
-        <h1>TODO APP USING <span>REACT REDUX</span></h1>
+        <h1><span>TO-DO-LIST</span> APP</h1>
         <div className="incon">
           <div className="inp">
             <input type="text" placeholder='write something' value={state} onChange={(e)=>setstate(e.target.value)} />
